@@ -13,6 +13,7 @@ setup(
     install_requires=['argparse'],
     description='Linter for euslisp',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Shingo Kitagawa',
     author_email='shingogo.5511@gmail.com',
     url='https://github.com/knorth55/euslint',
