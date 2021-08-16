@@ -42,7 +42,7 @@ def test_line_length(result, max_line_length, filepath):
             print(
                 '{0}:{1}: line_length: line too long ({2} > {3} characters)'
                 .format(
-                    filepath, line_length_result[0]+1,
+                    filepath, line_length_result[0],
                     line_length_result[1], max_line_length),
                 file=sys.stderr)
         return 1
