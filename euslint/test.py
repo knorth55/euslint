@@ -5,7 +5,8 @@ import sys
 
 def test_parenthesis(result, filepath):
     if result['parenthesis_open'] != result['parenthesis_close']:
-        print('{0}: parenthesis: # of open/close parenthesises doesn\'t match: {1} != {2}'  # NOQA
+        print(
+            '{0}: parenthesis: # of open/close parenthesises doesn\'t match: {1} != {2}'  # NOQA
             .format(
                 filepath, result['parenthesis_open'],
                 result['parenthesis_close']),
