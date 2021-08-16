@@ -1,10 +1,8 @@
-Euslint
-=======
+# Euslint
 
 Linter for Euslisp
 
-How to Use
-==========
+## How to Use
 
 ```bash
 $ euslint --help
